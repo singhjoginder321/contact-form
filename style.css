@@ -1,0 +1,48 @@
+body {
+    background: 
+      url('background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    overflow: hidden;
+  }
+
+  input {
+    padding-left: 10px; /* Adds space to the left of the input field */
+  }
+
+ 
+  input {
+  border: none; 
+  outline: none; 
+}
+
+
+.remove-flex{
+  flex: none;
+}
+
+.palceholded-margin{
+  margin-left: 24px;
+    height: 31px;
+}
+
+.message-box{
+  margin-left: 15px;
+}
+
+.contact-form{
+  font-size: 34px;
+  font-family: ui-sans-serif;
+}
+
+textarea{
+  border: none; 
+  outline: none; 
+}
+
+@media (max-width: 767px) {
+  body{
+    overflow: visible;
+  }
+}
